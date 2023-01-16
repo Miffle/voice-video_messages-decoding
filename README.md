@@ -23,4 +23,16 @@ Comment ```_error_check(self._errorcode)``` in
 2) ```def _cdata_io(self, action, data, ctype, frames)```
 
 in <b>soundfile.py</b>
+### <b><u>ValueError: invalid literal for int() with base 10: 'APP ID'.</u></b>
+After first launch you can see "my_account.session" if project folder.
 
+**Change in main.py** 
+```
+api_id = "APP ID"  
+api_hash = "APP HASH"
+app = Client("my_account", api_id=api_id, api_hash=api_hash)
+```
+
+**To** 
+
+```app = Client("my_account")```
