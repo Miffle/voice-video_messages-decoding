@@ -36,3 +36,6 @@ app = Client("my_account", api_id=api_id, api_hash=api_hash)
 **To** 
 
 ```app = Client("my_account")```
+
+---------------------
+You can find me in my telegram channel - https://t.me/ftliwdt
