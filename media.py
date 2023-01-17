@@ -19,7 +19,7 @@ class Media:
         try:
             with audio_file as audio:
                 content = self.r.listen(audio)
-            self.message_text = self.r.recognize_google(content, language="ru-RU")
+            self.message_text = self.r.recognize_google(content, language=self.lang)
         except UnknownValueError:
             self.message_text = "Слова не распознаны."
 
