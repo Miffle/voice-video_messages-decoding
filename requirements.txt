@@ -2,3 +2,4 @@ SpeechRecognition
 soundfile
 pyrogram
 numpy
+tgcrypto
